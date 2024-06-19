@@ -63,7 +63,7 @@ M.editor = {
     FoldColumn = { fg = colors.blue },
     Folded = { fg = colors.green, bg = colors.bg_alt, style = "italic" },
     IncSearch = { fg = colors.highlight, bg = colors.white, style = "reverse" },
-    LineNr = { fg = colors.line_numbers },
+    LineNr = { fg = colors.line_numbers, bg = colors.border },
     MatchParen = { fg = colors.yellow, bg = colors.none, style = "bold" },
     ModeMsg = { fg = colors.accent },
     MoreMsg = { fg = colors.accent },
@@ -89,7 +89,7 @@ M.editor = {
     StatusLine = { fg = colors.fg, bg = colors.bg_alt },
     StatusLineNC = { fg = colors.text, bg = colors.disabled },
     Substitute = {}, -- TODO
-    TabLineFill = { fg = colors.fg },
+    TabLineFill = { fg = colors.fg, bg = colors.border },
     Tabline = { fg = colors.fg },
     TablineSel = { fg = colors.bg, bg = colors.accent },
     TermCursor = {}, -- TODO
